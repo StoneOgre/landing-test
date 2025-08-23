@@ -68,6 +68,8 @@ a{
 .footer{
     background-color: midnightblue;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    text-align: center;
+    padding: 2em;
 }
