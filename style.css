@@ -42,20 +42,27 @@ a{
 }
 
 .boxes{
-
+    padding: 16px;
 }
 
 .box-three{
     background-color: gray;
-    margin: 0;
 }
 
 .box-four{
     background-color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 .ad-box{
     background-color: dodgerblue;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 .footer{
