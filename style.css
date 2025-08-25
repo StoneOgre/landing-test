@@ -9,11 +9,15 @@ body{
 .top-box{
     /*background-color: navy;*/
     display: flex;
-    color: white;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.header{
+header{
     margin: 0;
     padding: 0;
     /*background-color: navy;*/
@@ -45,14 +49,15 @@ a{
 }
 
 .links{
-    display: flex;
-    /*flex-direction: column;*/
+    /*display: flex;
+    flex-direction: column;
     align-items: flex-end;
-    /*justify-content: space-between;*/
+    justify-content: space-between;*/
+    gap: 12px;
 }
 
-.header .footer .links{
-    background-color: #1F2937;
+.header .footer .links .top-box{
+    background-color: #000;
 }
 
 .box-two{
