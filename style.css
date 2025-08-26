@@ -73,15 +73,36 @@ header, .footer .links .top-box{
     align-items: center;
 }
 
+.btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: 1px solid #3882F6;
+}
+
 .box-two{
-    background-color: white;
+    padding-bottom: 50px;
+}
+
+.two-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .holder{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bread{
+    height: 100px;
+    width: auto;
 }
 
 .boxes{
