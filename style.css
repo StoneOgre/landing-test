@@ -17,6 +17,11 @@ body{
     padding-right: 100px;
 }
 
+.top-left{
+    max-width: 375px;
+    text-align: left;
+}
+
 header{
     margin: 0;
     padding: 0;
@@ -56,8 +61,16 @@ a{
     gap: 12px;
 }
 
-.header .footer .links .top-box{
-    background-color: #000;
+header, .footer .links .top-box{
+    background-color: #00f;
+}
+
+.top-img{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-two{
