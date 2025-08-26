@@ -103,6 +103,9 @@ header, .footer .links .top-box{
 .bread{
     height: 100px;
     width: auto;
+    border: 3px solid none;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
 }
 
 .boxes{
