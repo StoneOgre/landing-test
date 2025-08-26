@@ -114,6 +114,30 @@ header, .footer .links .top-box{
 
 .box-three{
     background-color: gray;
+    text-align: center;
+}
+
+.qcontainer{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+}
+
+.citation{
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    padding-right: 10px;
 }
 
 .box-four{
