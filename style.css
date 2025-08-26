@@ -1,3 +1,8 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -141,23 +146,50 @@ header, .footer .links .top-box{
 }
 
 .box-four{
-    background-color: white;
+    padding: 100px;
+}
+
+.bcontainer{
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    padding: 30px 100px;
+    flex-wrap: wrap;
 }
 
 .ad-box{
-    background-color: dodgerblue;
+    /*background-color: dodgerblue;
     display: flex;
     gap: 16px;
     padding: 16px;
     width: 480px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;*/
+    color: #F9FAF8;
+}
+
+.lsignup{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.signbtn{
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: #F9FAF8;
+    border-radius: 5px;
 }
 
 .footer{
-    /*background-color: midnightblue;*/
+    background-color:#3882F6;
     display: flex;
     /*align-items: center;*/
     /*justify-content: center;*/
